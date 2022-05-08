@@ -62,7 +62,7 @@ void isCommentFinder(char x, bool& isPrevSingleSlash, bool& isComment){
  
  
 int main() {
-  ifstream f1("text.txt");
+  ifstream f1("input.txt");
  
   if (!f1.is_open()) {
     cout << "Error while opening file";
