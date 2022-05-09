@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-void placeMapElement(unordered_map<char, string> &m1,
-                     unordered_map<string, string> &m2) {
+void placeMapElement(unordered_map<char, string> &m1,unordered_map<string, string> &m2) {
  
   // m1
   string op = "+-*/=><";
